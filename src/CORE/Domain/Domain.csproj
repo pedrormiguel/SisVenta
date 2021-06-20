@@ -1,17 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="Common\" />
-    <None Remove="Entities\" />
-    <None Remove="Enums\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Enums\" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Common\" />
+		<None Remove="Entities\" />
+		<None Remove="Enums\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Common\" />
+		<Folder Include="Entities\" />
+		<Folder Include="Enums\" />
+	</ItemGroup>
 </Project>

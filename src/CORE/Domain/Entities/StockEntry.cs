@@ -6,10 +6,6 @@ namespace Domain.Entities
 {
     public class StockEntry : AuditableEntity
     {
-        public StockEntry()
-        {
-        }
-
         public Guid StockEntryId { get; set; }
         public DateTime Date { get; set; }
         public BusinessDocument TypeDocument { get; set; }

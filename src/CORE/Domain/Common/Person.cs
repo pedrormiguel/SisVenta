@@ -3,7 +3,7 @@ using Domain.Enums;
 
 namespace Domain.Common
 {
-    public abstract class Person
+    public abstract class Person : AuditableEntity
     {
         public string Name { get; set; }
         public string LastName { get; set; }
