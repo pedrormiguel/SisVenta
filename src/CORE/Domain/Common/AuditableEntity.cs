@@ -4,11 +4,6 @@ namespace Domain.Common
 {
     public class AuditableEntity
     {
-        public AuditableEntity()
-        {
-
-        }
-
         public string CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
         public string LasModifiedBy { get; set; }
