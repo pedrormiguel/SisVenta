@@ -3,10 +3,6 @@ namespace Domain.Entities
 {
     public class SellDetails
     {
-        public SellDetails()
-        {
-        }
-
         public Guid SellDetailsId { get; set; }
         public int Quantity { get; set; }
         public decimal PriceOfSell { get; set; }
